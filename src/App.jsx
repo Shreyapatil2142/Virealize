@@ -5,13 +5,13 @@ import ExploreSection from "./components/ExploreSection";
 import RealitySection from "./components/RealitySection";
 import NewsletterSection from "./components/NewsletterSection";
 import Footer from "./components/Footer";
-
+import main from './assets/main.png';
 export default function App() {
   return (
     <div className="relative min-h-screen bg-black">
       <div className="absolute inset-0">
         <img
-          src="https://storage.googleapis.com/a1aa/image/9d60e961-15e2-4a57-d69c-04d46d6e9ac6.jpg"
+          src={main}
           alt="VR Background"
           className="w-full h-[650px] object-cover"
         />
