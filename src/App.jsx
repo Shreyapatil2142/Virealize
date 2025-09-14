@@ -8,12 +8,12 @@ import Footer from "./components/Footer";
 import main from './assets/main.png';
 export default function App() {
   return (
-    <div className="relative min-h-screen bg-black">
+    <div className="relative min-h-full bg-[#1a1640]">
       <div className="absolute inset-0">
         <img
           src={main}
           alt="VR Background"
-          className="w-full h-[650px] object-cover"
+          className="w-full h-[700px] object-cover"
         />
       </div>
       <Header />

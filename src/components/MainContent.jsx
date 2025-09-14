@@ -5,7 +5,7 @@ export default function MainContent() {
       <h1 className="text-white font-orbitron font-bold text-4xl sm:text-5xl md:text-6xl leading-tight max-w-lg">
         Upgrade Your
         <br />
-        VR
+        VR 
         <span
           className="text-gradient font-semibold"
           style={{
