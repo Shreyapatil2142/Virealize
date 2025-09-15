@@ -5,7 +5,7 @@ import ExploreSection from "./components/ExploreSection";
 import RealitySection from "./components/RealitySection";
 import NewsletterSection from "./components/NewsletterSection";
 import Footer from "./components/Footer";
-import main from "./assets/main.png";
+import main from "/main.png";
 import AuthPage from "./components/AuthPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 

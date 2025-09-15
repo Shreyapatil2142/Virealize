@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Rectangle7 from "../assets/Rectangle 7.png";
-import Rectangle8 from "../assets/Rectangle 8.png";
-import Rectangle9 from "../assets/Rectangle 9.png";
+import Rectangle7 from "/Rectangle 7.png";
+import Rectangle8 from "/Rectangle 8.png";
+import Rectangle9 from "/Rectangle 9.png";
 
 const ProductsSection = () => {
   const products = [

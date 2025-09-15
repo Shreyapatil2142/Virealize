@@ -49,13 +49,9 @@ export default function Header() {
 
       {/* Auth Buttons */}
       <div className="flex space-x-4">
-        <button className="text-white text-xs font-semibold tracking-widest px-4 py-2 
-                           border border-white rounded-md hover:bg-white/20 transition">
-          Sign Up
-        </button>
         <Link
           to="/auth"
-          className="text-white text-xs font-semibold tracking-widest px-4 py-2 border border-white rounded-md hover:bg-white/20 transition"
+          className="text-white text-base font-semibold px-4 py-2 border border-white rounded-md hover:bg-white/20 transition"
         >  Log In
         </Link>
       </div>
