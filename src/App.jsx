@@ -16,7 +16,9 @@ export default function App() {
         {/* Always visible */}
         <Header />
         <Routes>
-           <Route path="/auth" element={<AuthPage />} />
+          <Route path="/auth" element={<AuthPage />} />
+          <Route path="/about" element={<ProductsSection />} />
+          <Route path="/company" element={<ExploreSection />} />
           <Route
             path="/"
             element={

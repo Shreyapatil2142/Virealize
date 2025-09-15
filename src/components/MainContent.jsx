@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function MainContent() {
   return (
@@ -24,13 +25,17 @@ export default function MainContent() {
           Discover cutting-edge VR accessories to elevate your gaming experience — immerse yourself in the future of virtual reality.
         </p>
         <div className="mt-8 flex space-x-4">
+          <Link to="/about">
           <button className="flex items-center space-x-2 text-base sm:text-base font-bold tracking-widest uppercase px-5 py-2 rounded-full bg-gradient-to-r from-purple-600 to-cyan-400 hover:opacity-90 transition">
             <span>SHOP NOW</span>
             <i className="fas fa-shopping-bag"></i>
           </button>
+          </Link>
+          <Link to="/company">
           <button className="text-white text-base sm:text-base font-bold tracking-widest uppercase px-5 py-2 rounded-full border border-white bg-white/10 hover:bg-white/20 transition">
             EXPLORE PRODUCTS
           </button>
+          </Link>
         </div>
     </main>
   );

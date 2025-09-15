@@ -1,20 +1,20 @@
 import { Link } from "react-router-dom";
+import virealize from "/virealize.svg";
+import logo from "/logo.png";
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between px-6 py-4 
                        bg-white/10 backdrop-blur-md border-b border-white/20">
       <div className="flex items-center space-x-3">
         {/* Grid Icon */}
-        <div className="grid grid-cols-3 grid-rows-3 gap-1 w-6 h-6 text-white">
-          {[...Array(9)].map((_, i) => (
-            <span key={i} className="block bg-white rounded-full"></span>
-          ))}
+        <div className="w-10 h-10">
+         <img src= {virealize} className="w-full h-full object-contain" alt="virealize" />
         </div>
 
         {/* Menu */}
-        <span className="text-white font-orbitron text-sm cursor-pointer tracking-wide">
+        <span className="w-20 h-15 cursor-pointer">
           <a href="#top">
-            MENU</a>
+            <img src={logo} className="w-full h-full object-contain" alt="logo"/></a>
         </span>
 
         <span className="text-white text-sm">|</span>
