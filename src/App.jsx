@@ -18,7 +18,7 @@ export default function App() {
         <Routes>
            <Route path="/auth" element={<AuthPage />} />
           <Route
-            path="/home"
+            path="/"
             element={
               <>
                 {/* Hero Background + Main */}
